@@ -61,6 +61,7 @@ public class Assignment2 {
     static class MinPriorityQueue {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
 
+
         void enqueue(int value) {
             pq.add(value);
         }
